@@ -28,9 +28,6 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         NotificationCenter.default.addObserver(self, selector: #selector(ChatViewController.keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
-           
-           NotificationCenter.default.addObserver(self, selector: #selector(ChatViewController.keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
          
         messageTextField.delegate = self
         chatTableView.delegate = self
@@ -58,48 +55,6 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         }*/
         // Do any additional setup after loading the view.
     }
-    
-  @objc func keyboardWillShow(notification: NSNotification) {
-          
-
-     if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
-       
-        print (self.view.frame.origin.y)
-        
-        if ( self.view.frame.origin.y >= 88 )  {
-                // move the root view up by the distance of keyboard height
-            print ("Gick ", self.view.frame.origin.y)
-            print ("Keyboard ", keyboardSize.height)
-            self.view.frame.origin.y -= keyboardSize.height - 40
-            print ("Gick upp", self.view.frame.origin.y)
-        }
-        
-        if (self.view.frame.origin.y <= 87 && self.view.frame.origin.y >= 60 ){
-            print ("Inne på else", self.view.frame.origin.y)
-             self.view.frame.origin.y -= keyboardSize.height
-        }
-        
-        
-         // if keyboard size is not available for some reason, dont do anything
-      }
-  }
-    
-    @objc func keyboardWillHide(notification: NSNotification) {
-    // move back the root view origin to zero
-        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
-            print ("Gick ner", self.view.frame.origin.y)
-            
-            if ( self.view.frame.origin.y <= -208  )  {
-                self.view.frame.origin.y +=  keyboardSize.height - 40
-                print ("Neutralläge", self.view.frame.origin.y)
-
-            
-    }
-            else {
-                self.view.frame.origin.y +=  keyboardSize.height
-            }
-    }
-  }
     
     func textFieldShouldReturn(_ messageTextField: UITextField) -> Bool {
         self.view.endEditing(true)

@@ -15,7 +15,6 @@
 		C07795872385EC7B008D0ED5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C07795862385EC7B008D0ED5 /* GoogleService-Info.plist */; };
 		C08299CF23AA3733009FCA7A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08299CE23AA3733009FCA7A /* Message.swift */; };
 		C09F9B2623F55E0600C0D4D2 /* FireBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F9B2523F55E0600C0D4D2 /* FireBaseModel.swift */; };
-		C0A17A782387E0D10081239E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A17A772387E0D10081239E /* Constants.swift */; };
 		C0AEDEBE238804590076CE91 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C0AEDEBD238804590076CE91 /* loginbg.mp4 */; };
 		C0C7902423854D1B008B1E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7902323854D1B008B1E57 /* AppDelegate.swift */; };
 		C0C7902623854D1B008B1E57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7902523854D1B008B1E57 /* SceneDelegate.swift */; };
@@ -27,8 +26,6 @@
 		C0C7903A23854E00008B1E57 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7903923854E00008B1E57 /* LogInViewController.swift */; };
 		C0C7903C23854E23008B1E57 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C7903B23854E23008B1E57 /* HomeViewController.swift */; };
 		C0D7278323B175E700FA152E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D7278223B175E700FA152E /* Constants.swift */; };
-		C0D7278523B175F500FA152E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D7278423B175F500FA152E /* Utilities.swift */; };
-		C0F6D30A2397CF6500625C19 /* UserProfileDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F6D3092397CF6500625C19 /* UserProfileDetails.swift */; };
 		C0FA3723238D198A0030E7A9 /* UserProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FA3722238D198A0030E7A9 /* UserProfileInfo.swift */; };
 		C0FFA02A23E326D800ABFC5B /* HomeCellViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFA02923E326D800ABFC5B /* HomeCellViewControllerTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +55,6 @@
 		C0C7903B23854E23008B1E57 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C0D7278223B175E700FA152E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = FriendsApp/Helpers/Constants.swift; sourceTree = SOURCE_ROOT; };
 		C0D7278423B175F500FA152E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = FriendsApp/Helpers/Utilities.swift; sourceTree = SOURCE_ROOT; };
-		C0F6D3092397CF6500625C19 /* UserProfileDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileDetails.swift; sourceTree = "<group>"; };
 		C0FA3722238D198A0030E7A9 /* UserProfileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileInfo.swift; sourceTree = "<group>"; };
 		C0FFA02923E326D800ABFC5B /* HomeCellViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		C91AF761F3FC08363E1A4D10 /* Pods-FriendsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsApp.debug.xcconfig"; path = "Target Support Files/Pods-FriendsApp/Pods-FriendsApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +152,6 @@
 				C0C7903723854DCC008B1E57 /* SignUpViewController.swift */,
 				C0C7903B23854E23008B1E57 /* HomeViewController.swift */,
 				C0FA3722238D198A0030E7A9 /* UserProfileInfo.swift */,
-				C0F6D3092397CF6500625C19 /* UserProfileDetails.swift */,
 				C06F25FA23A8C50900651FEF /* ChatViewController.swift */,
 				C028680023AA1C1100289431 /* ChatTableViewCell.swift */,
 				C0FFA02923E326D800ABFC5B /* HomeCellViewControllerTableViewCell.swift */,
@@ -211,7 +206,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Amad Walid";
 				TargetAttributes = {
 					C0C7901F23854D1A008B1E57 = {
@@ -306,17 +301,14 @@
 				C02E07EC238580A300DC4EF4 /* Utilities.swift in Sources */,
 				C0FFA02A23E326D800ABFC5B /* HomeCellViewControllerTableViewCell.swift in Sources */,
 				C0C7903823854DCC008B1E57 /* SignUpViewController.swift in Sources */,
-				C0F6D30A2397CF6500625C19 /* UserProfileDetails.swift in Sources */,
 				C0D7278323B175E700FA152E /* Constants.swift in Sources */,
 				C0C7903A23854E00008B1E57 /* LogInViewController.swift in Sources */,
-				C0D7278523B175F500FA152E /* Utilities.swift in Sources */,
 				C06F25FB23A8C50900651FEF /* ChatViewController.swift in Sources */,
 				C0C7902623854D1B008B1E57 /* SceneDelegate.swift in Sources */,
 				C028680123AA1C1100289431 /* ChatTableViewCell.swift in Sources */,
 				C09F9B2623F55E0600C0D4D2 /* FireBaseModel.swift in Sources */,
 				C08299CF23AA3733009FCA7A /* Message.swift in Sources */,
 				C0C7903C23854E23008B1E57 /* HomeViewController.swift in Sources */,
-				C0A17A782387E0D10081239E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -446,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

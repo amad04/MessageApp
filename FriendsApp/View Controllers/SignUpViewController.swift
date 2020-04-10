@@ -91,7 +91,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         let cleanpassword = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         if Utilities.isPasswordValid(cleanpassword) == false {
             
-            showAlert ("Pleace make sure the password is at least 8 characters, contain a speical charcter and a number")
+           // showAlert ("Pleace make sure the password is at least 8 characters, contain a speical charcter and a number")
         }
         return nil
     }
@@ -115,8 +115,9 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         
         let error = validateFields()
         
-        if error != nil {
-            showAlert(error!)
+        if let e = error {
+            
+            showAlert(e)
         }
         
         else {
@@ -245,7 +246,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
             }
             }
             else{
-                print ("Somthink went wrong :/", error?.localizedDescription as Any)
+                print ("Something went wrong :/", error?.localizedDescription as Any)
             }
         }
     }

@@ -17,7 +17,7 @@ class FireBaseModel {
         
     }
     
-    static func getUserData() {
+   /* static func getUserData() {
         let currentUser = (Auth.auth().currentUser?.uid)!
         let dataRef = Database.database().reference()
         let user = dataRef.child("users").child(currentUser)
@@ -33,7 +33,7 @@ class FireBaseModel {
             ue = userArray? ["mail"] as! String
             
         }
-    }
+    }*/
   
 }
     
