@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>227321174371-vv9oaff0omj26m45rbul16tn1tfngu5k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.227321174371-vv9oaff0omj26m45rbul16tn1tfngu5k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAlQ4Tmgk-H-tlBJcHJf73cGEzpXh45l6k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>227321174371</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Amad.FriendsApp</string>
+	<key>PROJECT_ID</key>
+	<string>friendsapp-22e3b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>friendsapp-22e3b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:227321174371:ios:a0ef06f6296053fac4db56</string>
+	<key>DATABASE_URL</key>
+	<string>https://friendsapp-22e3b.firebaseio.com</string>
+</dict>
+</plist>
